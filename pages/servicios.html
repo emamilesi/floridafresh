@@ -9,142 +9,112 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=Ysabeau:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../Css/estilo web.css">
+    <link rel="stylesheet" href="../Css/estilo_web.css">
     <title>Verduleria y Fruteria</title>
 </head>
 <body>
     <!-- Menu y logo que tiene que estar en todas las paginas igual -->
-
-    <div class="header">
-
-        <br>
-               
- 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                    <div class="logoheader">
-                        <img src="../Imagenes/Logo.png" width="150" height="auto">
-                                </div>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html"><strong>Inicio</strong></a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/servicios.html"><strong>Servicios</strong></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/ofertas.html"><strong>Ofertas</strong></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <strong>Productos</strong>
-                    </a>
-                    
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../pages/almacen.html"><strong>Almacen</strong></a></li>
-                      <li><a class="dropdown-item" href="../pages/verduras.html"><strong>Verduras</strong></a></li>
-                      <li><a class="dropdown-item" href="../pages/frutas.html"><strong>Frutas</strong></a></li>
-                    </ul>
-                    
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <strong>Clientes</strong>
-                    </a>
-                    
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../pages/ingresar.html"><strong>Ingresar</strong></a></li>
-                      <li><a class="dropdown-item" href="../pages/registro.html"><strong>Registrarse</strong></a></li>
-                    </ul>
-                    
-                  </li>
-
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
-                  <button class="btn btn-outline-success" type="submit"><strong>Buscar</strong></button>
-                </form>
-                <div class="canasto">
-                    <img src="../Imagenes/canasto.png" width="150" height="auto">
-                            </div>
-              </div>
-            </div>
-          </nav>
-
-
-
-            </div>
-
-
-
+    <header>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="logoheader">
+                            <img src="../Imagenes/Logo.png" width="150" height="auto" alt="Logo">
+                        </div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html"><strong>Inicio</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/servicios.html"><strong>Servicios</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/ofertas.html"><strong>Ofertas</strong></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <strong>Productos</strong>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/almacen.html"><strong>Almacen</strong></a></li>
+                                    <li><a class="dropdown-item" href="../pages/verduras.html"><strong>Verduras</strong></a></li>
+                                    <li><a class="dropdown-item" href="../pages/frutas.html"><strong>Frutas</strong></a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <strong>Clientes</strong>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/ingresar.html"><strong>Ingresar</strong></a></li>
+                                    <li><a class="dropdown-item" href="../pages/registro.html"><strong>Registrarse</strong></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
+                            <button class="btn btn-outline-success" type="submit"><strong>Buscar</strong></button>
+                        </form>
+                        <div class="canasto">
+                            <img src="../imagenes/canasto.png" width="150" height="auto" alt="Canasto">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
-<main>
-    <!-- FIN Menu y logo que tiene que estar en todas las paginas igual -->
-
-    <!-- Texto -->
-
-    <div class="contenedor">
-        <div class="textboxservicios">
-            <h2>¿Que servicos ofrecemos?<br /><span>¡Enterate de todos!</span></h2>
-            <p>	<strong>• Descuentos increibles</strong>
-                <br><i>Ofertas relampago comprando desde nuestra pagina ecommerce</i>
-                <br> <strong>• Promociones con distintos bancos</strong>
-                <br><i>Banco Galicia ofrece 30% todos los jueves</i>
-                <br><strong>• Mercado Pago</strong>
-                <br><i>Paga con QR o transferencia bancaria</i>
-                <br><strong>• Modo y Cuenta DNI</strong>
-                <br><i>Ofrecemos varias plataformas de pago</i>
-                <br></p>
-                
-                
-                </div>
-
-    <!-- Banner -->
-    
-
-
-    <div class="photo4">
-      <img src="../Imagenes/seccion box/promociones.png" alt="" style="width:200%;">
-      
-      </div>
-  </div>
-
- <!-- Segunda seccion -->
-
- <div class="contenedor">
-    <div class="textboxservicios">
-        <h2>Principales empresas con quien trabajamos <br /></h2>
-        <p><img src="../Imagenes/seccion box/kansas.png" width="250" height="auto">
-            <img src="../Imagenes/seccion box/uade.png" width="250" height="auto">
-            <img src="../Imagenes/seccion box/meli.png" width="250" height="auto">
-            <img src="../Imagenes/seccion box/quilmes.png" width="250" height="auto">
-            <br>
-            <img src="../Imagenes/seccion box/pfchang.png" width="250" height="auto">
-            <img src="../Imagenes/seccion box/siglo21.png" width="250" height="auto">
-            
-            
+    <main>
+        <!-- Texto -->
+        <div class="contenedor">
+            <div class="textboxservicios">
+                <h2>¿Qué servicios ofrecemos?<br /><span>¡Entérate de todos!</span></h2>
+                <p>
+                    <strong>• Descuentos increíbles</strong><br>
+                    <i>Ofertas relámpago comprando desde nuestra página ecommerce</i><br>
+                    <strong>• Promociones con distintos bancos</strong><br>
+                    <i>Banco Galicia ofrece 30% todos los jueves</i><br>
+                    <strong>• Mercado Pago</strong><br>
+                    <i>Paga con QR o transferencia bancaria</i><br>
+                    <strong>• Modo y Cuenta DNI</strong><br>
+                    <i>Ofrecemos varias plataformas de pago</i>
+                </p>
             </div>
 
-<!-- Pie de pagina -->
-<br>
-<br>
+            <!-- Banner -->
+            <div class="photo4">
+                <img src="../imagenes/seccion box/promociones.png" alt="" style="width:100%;" />
+            </div>
+        </div>
 
-<div class="videoseccion1" style="text-align: center;">
-    <div id="videoseccion"><video width="1000" height="auto" src="../Videos/videoservicios.mp4" autoplay></video></div>
-</div>
+        <!-- Segunda sección -->
+        <div class="contenedor">
+            <div class="textboxservicios">
+                <h2>Principales empresas con las que trabajamos</h2>
+                <p>
+                    <img src="../imagenes/seccion box/kansas.png" width="250" height="auto" alt="Kansas" />
+                    <img src="../imagenes/seccion box/uade.png" width="250" height="auto" alt="UADE" />
+                    <img src="../imagenes/seccion box/meli.png" width="250" height="auto" alt="Meli" />
+                    <img src="../imagenes/seccion box/quilmes.png" width="250" height="auto" alt="Quilmes" /><br>
+                    <img src="../imagenes/seccion box/pfchang.png" width="250" height="auto" alt="PF Chang" />
+                    <img src="../imagenes/seccion box/siglo21.png" width="250" height="auto" alt="Siglo 21" />
+                </p>
+            </div>
 
+            <!-- Pie de página -->
+            <br><br>
+            <div class="videoseccion1" style="text-align: center;">
+                <div id="videoseccion">
+                    <video width="100%" height="auto" src="../Videos/videoservicios.mp4" autoplay></video>
+                </div>
+            </div>
+        </div>
+    </main>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
-
-</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
